@@ -33,7 +33,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 BASICAUTH_USERS = {os.environ.get('USER'):os.environ.get('PASS')}
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
